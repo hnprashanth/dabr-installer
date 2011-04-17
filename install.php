@@ -86,7 +86,9 @@ function googleAnalyticsGetImageUrl() {
 }
 
 ?>";
-$fhandle = fopen("config.php", "w");
+$dir = "/";
+$fname = "config.php";
+$fhandle = fopen($dir.$fname, "w");
 if (fwrite($fhandle, $content) === FALSE)
   echo "Cannot write to file";
 else
