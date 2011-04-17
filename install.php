@@ -86,7 +86,7 @@ function googleAnalyticsGetImageUrl() {
 }
 
 ?>";
-$dir = "/";
+$dir = "./";
 $fname = "config.php";
 $fhandle = fopen($dir.$fname, "w");
 if (fwrite($fhandle, $content) === FALSE)
