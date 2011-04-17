@@ -1,0 +1,15 @@
+README
+======
+
+dabr-installer is an easy installer of popular open-source Twitter mobile client Dabr (http://dabr.co.uk).
+
+Installation
+============
+
+Download and extract files to desired installation directory.
+
+Visit http://extractedpath/install.html and enter your app key & secret (Get from http://twitter.com/apps)
+
+And you are done!!
+
+Delete install.html & install.php for security reasons.
